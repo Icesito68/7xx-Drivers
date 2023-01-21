@@ -1,5 +1,5 @@
 ﻿
-# Windows Driver pack for Xiaomi Poco X3 Nfc platform
+# Windows Driver pack for 7xx snapdragon platform
 
 These drivers still do not contain anything useful for the poco x3 nfc, many changes are still needed
 
