@@ -1,4 +1,4 @@
-\components\QC7125\Device\DEVICE.SOC_QC7125.MIATOLL_MINIMAL
+\components\QC7125\PLatform\DEVICE.SOC_QC7125.BASE
 
 
 \components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE

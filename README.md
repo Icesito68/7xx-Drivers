@@ -10,6 +10,8 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 
 These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000.
 
+Thanks to [Idonotkno](https://github.com/Idonotkno/sc7180-drivers_mtp7180) for sharing the necessary drivers for the 720g
+
 ## Resources
 
 ## Copyright, License, Disclaimers and end user license agreement
