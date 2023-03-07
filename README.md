@@ -8,7 +8,7 @@ All driver binary files form a board support package to be used on 7xx snapdrago
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
 
-These driver files are based on @gus33000 's drivers for Surface Duo. Huge thanks to @gus33000.
+Huge thanks to @gus33000
 
 Thanks to [Idonotkno](https://github.com/Idonotkno/sc7180-drivers_mtp7180) for sharing the necessary drivers for the 720g
 
