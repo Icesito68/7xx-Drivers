@@ -1,5 +1,5 @@
 \components\QC7150\Device\DEVICE.SOC_QC7150.SURYA
-\components\QC7150\Device\DEVICE.SOC_QC7150.SURYA_MINIMAL
+
 
 
 \components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE
