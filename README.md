@@ -1,7 +1,7 @@
 ﻿
 # Windows Driver pack for 7xx snapdragon platform
 
-These drivers still do not contain anything useful for the poco x3 nfc, many changes are still needed
+These drivers still do not contain anything useful for the Redmi Note 9S and Poco X3 Nfc, many changes are still needed
 
 This repository contains driver binary files for 7xx snapdragon platform.
 All driver binary files form a board support package to be used on 7xx snapdragon platform devices to provide hardware support for the Windows operating system.
