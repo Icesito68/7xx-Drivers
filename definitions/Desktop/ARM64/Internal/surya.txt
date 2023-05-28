@@ -1,4 +1,4 @@
-\components\QC7150\Device\DEVICE.SOC_QC7150.SURYA
+\components\QC7150\Device\Surya\DEVICE.SOC_QC7150.SURYA
 
 
 
