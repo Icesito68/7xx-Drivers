@@ -4,7 +4,7 @@
 
 # Windows Driver pack for 7xx snapdragon platform
 
-<img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/Snap-7xx-devices.png" width="350" alt="7xx-drivers">
+<img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/Snap-7xx-devices.png">
 
 These drivers have some features in beta for Redmi Note 9S.
 
