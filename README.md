@@ -1,12 +1,7 @@
-
-
-
-
 # Windows Driver pack for 7xx snapdragon platform
 
 <img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/images/Snap-7xx-devices.png">
 
-<img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/images/sweet.png">
 
 These drivers have some features in beta for Redmi Note 9S.
 
@@ -16,6 +11,8 @@ This repository contains driver binary files for 7xx snapdragon platform.
 All driver binary files form a board support package to be used on 7xx snapdragon platform devices to provide hardware support for the Windows operating system.
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
+
+<img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/images/sweet.png">
 
 ## Credits
 
