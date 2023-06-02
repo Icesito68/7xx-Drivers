@@ -6,6 +6,8 @@
 
 <img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/images/Snap-7xx-devices.png">
 
+<img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/images/sweet.png">
+
 These drivers have some features in beta for Redmi Note 9S.
 
 These drivers still do not contain anything useful for the Poco X3 Nfc, Redmi Note 10 Pro or  Xiaomi Mi 11 Lite 5g NE, many changes are still needed.
