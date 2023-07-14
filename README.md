@@ -18,7 +18,7 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 
 ## Credits
 
-### Thanks a lot to [sunflower2333](https://github.com/sunflower2333) for porting all drivers!!
+### Thanks a lot to [sunflower2333](https://github.com/sunflower2333) for porting all drivers for Miatoll!!
 
 Huge thanks to @gus33000 for sharing the necessary drivers for the 778g (and for being a pioneer in many of these things)
 
