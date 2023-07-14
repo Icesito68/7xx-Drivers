@@ -7,7 +7,7 @@ These drivers have some features in beta for Redmi Note 9S.
 
 There are also files in alpha for Xiaomi Mi 11 Lite 5g NE
 
-These drivers still do not contain anything useful for the Poco X3 Nfc orRedmi Note 10 Pro, many changes are still needed.
+These drivers still do not contain anything useful for the Poco X3 Nfc or Redmi Note 10 Pro, many changes are still needed.
 
 This repository contains driver binary files for 7xx snapdragon platform.
 All driver binary files form a board support package to be used on 7xx snapdragon platform devices to provide hardware support for the Windows operating system.
