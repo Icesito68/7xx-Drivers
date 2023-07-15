@@ -1,5 +1,34 @@
 # Windows Driver pack for 7xx snapdragon platform
 
+## Drivers
+
+<details>
+<summary><b><strong>7125</strong></b></summary>
+  
+[Miatoll](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.0)
+
+  </summary>
+</details>
+
+<details>
+<summary><b><strong>7150</strong></b></summary
+
+Surya (Not Yet)
+
+Sweet (Not Yet)
+
+  </summary>
+</details>
+
+<details>
+<summary><b><strong>7325</strong></b></summary
+
+[Lisa](https://github.com/Icesito68/7xx-Drivers/releases/tag/Lisa-Drivers-V0.0.1)
+
+  </summary>
+</details>
+
+
 <img align="center" src="https://github.com/Icesito68/7xx-Drivers/blob/main/images/Snap-7xx-devices.png">
 
 
