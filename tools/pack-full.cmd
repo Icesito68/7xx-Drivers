@@ -9,22 +9,22 @@
 
 
 title [220X.%dtStamp%.prerelease] [Build preparation] [Packing Binaries]
-REM rmdir /Q /S ..\..\SurfaceDuo-Drivers-Release
-REM mkdir ..\..\SurfaceDuo-Drivers-Release
+REM rmdir /Q /S ..\..\7xx-Drivers-Release
+REM mkdir ..\..\7xx-Drivers-Release
 
-mkdir SurfaceDuo-Drivers-Full
-mkdir SurfaceDuo-Drivers-Full\components
-mkdir SurfaceDuo-Drivers-Full\definitions
-xcopy /cheriky ..\components\ANYSOC SurfaceDuo-Drivers-Full\components\ANYSOC
-xcopy /cheriky ..\components\QC8150 SurfaceDuo-Drivers-Full\components\QC8150
-xcopy /cheriky ..\components\QC8350 SurfaceDuo-Drivers-Full\components\QC8350
-xcopy /cheriky ..\definitions\Desktop SurfaceDuo-Drivers-Full\definitions\Desktop
+mkdir 7xx-Drivers-Full
+mkdir 7xx-Drivers-Full\components
+mkdir 7xx-Drivers-Full\definitions
+xcopy /cheriky ..\components\QC7150 7xx-Drivers-Full\components\QC7150
+xcopy /cheriky ..\components\QC7125 7xx-Drivers-Full\components\QC7125
+xcopy /cheriky ..\components\QC7325 7xx-Drivers-Full\components\QC7325
+xcopy /cheriky ..\definitions\Desktop 7xx-Drivers-Full\definitions\Desktop
 
-"%ProgramFiles%\7-zip\7z.exe" a -tzip -r ..\..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Full.zip SurfaceDuo-Drivers-Full\*
+"%ProgramFiles%\7-zip\7z.exe" a -tzip -r ..\..\7xx-Drivers-Release\7xx-Drivers-Full.zip 7xx-Drivers-Full\*
 
-REM move SurfaceDuo-Drivers-Full\components\ANYSOC ..\components\ANYSOC
-REM move SurfaceDuo-Drivers-Full\components\QC8150 ..\components\QC8150
-REM move SurfaceDuo-Drivers-Full\components\QC8350 ..\components\QC8350
-REM move SurfaceDuo-Drivers-Full\definitions\Desktop ..\definitions\Desktop
+REM move 7xx-Drivers-Full\components\QC7150 ..\components\QC7150
+REM move 7xx-Drivers-Full\components\QC7125 ..\components\QC7125
+REM move 7xx-Drivers-Full\components\QC7325 ..\components\QC7325
+REM move 7xx-Drivers-Full\definitions\Desktop ..\definitions\Desktop
 
-rmdir /Q /S SurfaceDuo-Drivers-Full
+rmdir /Q /S 7xx-Drivers-Full
