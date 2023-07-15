@@ -3,3 +3,5 @@
 ../../build/ms/dynamic_modules/kodiak.adsp.prod/libstabilitydomain_skel.so
 ../../build/ms/dynamic_modules/kodiak.adsp.prod/libsysmonquery_skel.so
 ../../build/ms/dynamic_modules/kodiak.adsp.prod/fastrpc_shell_0
+../../build/ms/dynamic_modules/kodiak.adsp.prod/capi_v2_voice_imc_rx.so.1
+../../build/ms/dynamic_modules/kodiak.adsp.prod/capi_v2_voice_imc_tx.so.1
