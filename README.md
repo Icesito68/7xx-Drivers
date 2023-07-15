@@ -13,7 +13,7 @@
 <details>
 <summary><b><strong>7150</strong></b></summary
 
-- Surya (Not Yet)
+-Surya (Not Yet)
 
 - Sweet (Not Yet)
 
