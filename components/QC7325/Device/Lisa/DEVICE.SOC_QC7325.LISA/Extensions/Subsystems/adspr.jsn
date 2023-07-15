@@ -17,12 +17,6 @@
             "service_data_valid": 0,
             "service_data": 0,
             "dcomment": "data can be used to configure ACK timeout.Make data_valid 1 as well.Unit is second"
-        },
-        {
-            "provider": "tms",
-            "service": "pdr_enabled",
-            "service_data_valid": 0,
-            "service_data": 0
         }
     ]
 }
