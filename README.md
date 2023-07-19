@@ -51,6 +51,8 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 
 Huge thanks to @gus33000 for sharing the necessary drivers for the 778g (and for being a pioneer in many of these things)
 
+Thanks to [ETCHDEV](https://github.com/ETCHDEV) for adding some drivers for lisa
+
 Thanks to [Idonotkno](https://github.com/Idonotkno/sc7180-drivers_mtp7180) for sharing the necessary drivers for the 720g
 
 ## Resources
