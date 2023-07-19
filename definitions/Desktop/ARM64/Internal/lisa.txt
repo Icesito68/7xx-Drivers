@@ -1,4 +1,0 @@
-components\QC7325\Platform\
-
-components\QC7325\Device\Lisa\
-
