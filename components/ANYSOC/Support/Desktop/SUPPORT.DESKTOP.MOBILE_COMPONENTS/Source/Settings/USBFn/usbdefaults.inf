@@ -1,0 +1,61 @@
+;
+; USBDefaults.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SYSTEM
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider    = %IHV%
+DriverVer   = 03/25/2023,1.0.0.1
+CatalogFile = USBDefaults.cat
+PnpLockdown = 1
+
+[DefaultInstall.NTARM64]
+Addreg = USBDefaults.AddReg, USBDefaults_Configurations.AddReg
+
+[USBDefaults_Configurations.AddReg]
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Configurations\Default", "InterfaceList", 0x10000, "IpOverUsb","MTP","UsbNcm"
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Configurations\Default", "MSOSCompatIdDescriptor", 0x1, 58,00,00,00,00,01,04,00,03,00,00,00,00,00,00,00,00,01,57,49,4e,55,53,42,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,01,4d,54,50,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,02,01,57,49,4e,4e,43,4d,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[USBDefaults.AddReg]
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Alternates\UsbNcmData", "InterfaceList", 0x10000, "UsbNcmData0","UsbNcmData1"
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Associations\UsbNcm", "bFunctionClass", 0x10001, 0x2
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Associations\UsbNcm", "bFunctionProtocol", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Associations\UsbNcm", "bFunctionSubclass", 0x10001, 0xd
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Associations\UsbNcm", "InterfaceList", 0x10000, "UsbNcmComm","UsbNcmData"
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "bcdDevice", 0x10001, 0x1
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "bDeviceClass", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "bDeviceProtocol", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "bDeviceSubClass", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "CurrentConfiguration", 0x0, "Default"
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "idProduct", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "idVendor", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "iSerialNumber", 0x10001, 0x0
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Default", "ManufacturerString", 0x0, "Microsoft"
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\IpOverUsb", "InterfaceDescriptor", 0x1, 09,04,00,00,02,ff,ff,ff,00,07,05,81,02,00,02,00,07,05,02,02,00,02,00
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\IpOverUsb", "InterfaceGuid", 0x0, "{30613563-7df3-4afb-80e0-e8c427c7e9bf}"
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\IpOverUsb", "MSOSExtendedPropertyDescriptor", 0x1,\
+  74,01,00,00,00,01,05,00,05,00,84,00,00,00,01,00,00,00,28,00,44,00,65,00,76,00,69,00,63,00,65,00,49,00,6e,00,74,00,65,00,72,00,66,00,61,00,63,00,65,00,47,00,55,00,49,00,44,00,00,00,4e,00,00,00,7b,00,32,00,36,00,66,00,65,00,64,\
+  00,63,00,34,00,65,00,2d,00,36,00,61,00,63,00,33,00,2d,00,34,00,32,00,34,00,31,00,2d,00,39,00,65,00,34,00,64,00,2d,00,65,00,33,00,64,00,34,00,62,00,32,00,63,00,35,00,63,00,35,00,33,00,34,00,7d,00,00,00,36,00,00,00,04,00,00,00,\
+  24,00,44,00,65,00,76,00,69,00,63,00,65,00,49,00,64,00,6c,00,65,00,45,00,6e,00,61,00,62,00,6c,00,65,00,64,00,00,00,04,00,00,00,01,00,00,00,34,00,00,00,04,00,00,00,22,00,44,00,65,00,66,00,61,00,75,00,6c,00,74,00,49,00,64,00,6c,\
+  00,65,00,53,00,74,00,61,00,74,00,65,00,00,00,04,00,00,00,01,00,00,00,38,00,00,00,04,00,00,00,26,00,44,00,65,00,66,00,61,00,75,00,6c,00,74,00,49,00,64,00,6c,00,65,00,54,00,69,00,6d,00,65,00,6f,00,75,00,74,00,00,00,04,00,00,00,\
+  10,27,00,00,44,00,00,00,04,00,00,00,32,00,55,00,73,00,65,00,72,00,53,00,65,00,74,00,44,00,65,00,76,00,69,00,63,00,65,00,49,00,64,00,6c,00,65,00,45,00,6e,00,61,00,62,00,6c,00,65,00,64,00,00,00,04,00,00,00,01,00,00,00
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\MTP", "InterfaceDescriptor", 0x1, 09,04,00,00,03,06,01,01,00,07,05,81,02,00,02,00,07,05,02,02,00,02,00,07,05,83,03,40,00,04
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\MTP", "InterfaceGuid", 0x0, "{61fd7822-e8d4-44c4-9065-aaad0a3beff0}"
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\UsbNcmComm", "InterfaceDescriptor", 0x1, 09,04,00,00,01,02,0d,00,00,05,24,00,20,01,05,24,06,03,04,0d,24,0f,10,00,00,00,00,36,23,00,00,00,06,24,1a,00,01,00,07,05,81,03,40,00,02
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\UsbNcmData0", "InterfaceDescriptor", 0x1, 09,04,00,00,00,0a,00,01,00
+
+HKLM, "SYSTEM\CurrentControlSet\Control\USBFN\Interfaces\UsbNcmData1", "InterfaceDescriptor", 0x1, 09,04,00,01,02,0a,00,01,00,07,05,82,02,00,02,00,07,05,03,02,00,02,00
+
+[USBDefaults_Configurations.AddReg.Security]
+"D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GA;;;AU)(A;;GA;;;BG)(A;;GA;;;S-1-15-2-1)(A;;GA;;;WD)"
+
+[Strings]
+IHV = "DuoWoA authors"
