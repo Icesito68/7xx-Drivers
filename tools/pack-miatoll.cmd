@@ -16,6 +16,7 @@ mkdir miatoll-Drivers-Full
 mkdir miatoll-Drivers-Full\components
 mkdir miatoll-Drivers-Full\definitions
 xcopy /cheriky ..\components\QC7125 miatoll-Drivers-Full\components\QC7125
+xcopy /cheriky ..\components\ANYSOC miatoll-Drivers-Full\components\ANYSOC
 xcopy /cheriky ..\definitions\Desktop miatoll-Drivers-Full\definitions\Desktop
 
 "%ProgramFiles%\7-zip\7z.exe" a -tzip -r ..\..\miatoll-Drivers-Release\miatoll-Drivers-Full.zip miatoll-Drivers-Full\*
