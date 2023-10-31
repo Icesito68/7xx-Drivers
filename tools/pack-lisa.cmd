@@ -16,6 +16,7 @@ mkdir lisa-Drivers-Full
 mkdir lisa-Drivers-Full\components
 mkdir lisa-Drivers-Full\definitions
 xcopy /cheriky ..\components\QC7325 lisa-Drivers-Full\components\QC7325
+xcopy /cheriky ..\components\ANYSOC lisa-Drivers-Full\components\ANYSOC
 xcopy /cheriky ..\definitions\Desktop lisa-Drivers-Full\definitions\Desktop
 
 "%ProgramFiles%\7-zip\7z.exe" a -tzip -r ..\..\lisa-Drivers-Release\lisa-Drivers-Full.zip lisa-Drivers-Full\*
