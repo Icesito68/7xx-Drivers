@@ -4,7 +4,3 @@
 
 \components\QC7325\Device\Lisa\DEVICE.SOC_QC7325.LISA
 \components\QC7325\Device\Lisa\DEVICE.SOC_QC7325.LISA_MINIMAL
-
-\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE
-\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.SURFACE_EXTRAS
-\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS
