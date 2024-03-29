@@ -5,7 +5,7 @@
 <details>
 <summary><b><strong>7125</strong></b></summary>
   
-- [Miatoll](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.0)
+- [Miatoll](https://github.com/N1kroks/7xx-Drivers/releases) ```The last drivers are from N1kroks, which is making great advances```
 
   </summary>
 </details>
